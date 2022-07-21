@@ -6,6 +6,7 @@ html {
   background-color: black;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-top: 3rem;
   margin-left: 3rem;
   margin-right: 3rem;
   border: 0.25rem red solid;
@@ -30,6 +31,7 @@ html {
   border: 0.25rem red solid;
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-top: 3rem;
 }
 
 .splash h1,
