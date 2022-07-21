@@ -52,6 +52,47 @@ img {
 }
 
 .flex-container-nav a:hover {
-  background-color: cornflowerblue;
-  color: azure;
+  color: red;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  border: 0.25rem red solid;
+  border-radius: 25px;
+  background-image: linear-gradient(to right top, #080808, #341d3b, #771c57, #c10057, #ff0337);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border: 0.25rem red solid;
+  border-radius: 25px;
+  background-image: linear-gradient(to right top, #080808, #341d3b, #771c57, #c10057, #ff0337);
+}
+
+
+.nav a {
+  text-shadow: -2px 0 cornflowerblue, 0 2px cornflowerblue, 2px 0 cornflowerblue,
+    0 -2px cornflowerblue;
+  font-family: copperplate;
+  color: white;
+  font-size: 1.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: red;
 }
