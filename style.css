@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 500px) {
+  .flex-container-nav {
+    flex-direction: column;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+}
+
 .flex-container-logo {
   display: flex;
   justify-content: center;
@@ -11,9 +21,9 @@
   background-color: black;
   border: 0.25rem red solid;
   border-radius: 25px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .flex-container-logo h1,
@@ -22,9 +32,12 @@ img {
   text-shadow: -2px 0 cornflowerblue, 0 2px cornflowerblue, 2px 0 cornflowerblue,
     0 -2px cornflowerblue;
   font-family: copperplate;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: auto;
 }
 
 .flex-container-nav {
@@ -33,9 +46,9 @@ img {
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 3rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   border: 0.25rem red solid;
   border-radius: 25px;
   background-color: black;
@@ -46,9 +59,12 @@ img {
     0 -2px cornflowerblue;
   font-family: copperplate;
   color: white;
-  font-size: 1.5rem;
   flex: 1;
   text-align: center;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
 }
 
 .flex-container-nav a:hover {
@@ -60,9 +76,9 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
   border: 0.25rem red solid;
   border-radius: 25px;
   background-image: linear-gradient(to right top, #080808, #341d3b, #771c57, #c10057, #ff0337);
@@ -74,9 +90,9 @@ img {
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 3rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   border: 0.25rem red solid;
   border-radius: 25px;
   background-image: linear-gradient(to right top, #080808, #341d3b, #771c57, #c10057, #ff0337);
@@ -88,11 +104,18 @@ img {
     0 -2px cornflowerblue;
   font-family: copperplate;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   flex: 1;
   text-align: center;
 }
 
 .nav a:hover {
   color: red;
+}
+
+.logo img {
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  flex: 1;
 }
