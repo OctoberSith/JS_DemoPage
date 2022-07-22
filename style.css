@@ -143,11 +143,12 @@ img {
   margin: .5rem;
 }
 
-.flex-container article > h3,p {
+.flex-container article > h3, article > p, article > img {
   padding: .5rem;
   margin: .5rem;
   color: goldenrod;
   background-color: black;
+  border-radius: .25rem;
 }
 
 .flex-item {
