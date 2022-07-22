@@ -1,3 +1,3 @@
 # JS_DemoPage
 - Javascript Demo Playground Project
-- Phantasm Fan Tribute Page
+- Bonus: Phantasm Fan Tribute Page
